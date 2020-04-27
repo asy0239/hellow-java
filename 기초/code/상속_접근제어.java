@@ -1,7 +1,7 @@
 package helloworld;
 
 class Car2 {
-	private int speed = 100; 
+	public static int speed = 100; 
 	public void speedUp() {
 		speed += 10;
 	}
@@ -17,6 +17,8 @@ public class 상속_접근제어 {
 //		truck.speed = 110; // speed 변수는 private 이므로 오류 발생
 		truck.speedUp();
 		
+		System.out.println(Car2.speed);		
 	}
 
 }
+

@@ -21,5 +21,4 @@ public class input {
 		System.out.printf("이름은 %s 나이는 %d살인데 %s입니다.\n",name,age,job);
 		System.out.println("에잉 ㅉㅉ");
 	}
-	
 }
